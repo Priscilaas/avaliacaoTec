@@ -1,0 +1,157 @@
+/* paleta de cor 
+gelo - #eeeeee
+bege - #cdbeac
+cinza - #a3a2a9
+azul - #062563
+vermelho - #b9040f
+amarelo - #f9d16d
+*/
+
+/* css reboot */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Roboto', sans-serif;
+    /* background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+    background: linear-gradient(158.5deg, #4F3ACD 0%, #56ADD6 100%);
+}
+
+form{
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    color:#f9d16d;
+    text-align: center;
+}
+p{
+    color:rgb(236, 234, 234);
+    font-size: 14px;
+    padding: 5px;
+}
+
+fieldset{
+    border:2px solid transparent;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;	
+    border-radius:8px;
+    padding: 10px;
+    margin-top: 5px;
+    background: rgba(0,0,0,0.1);
+}
+
+legend{
+    color: #f9d16d;
+}
+
+input{
+    border-bottom: 1px solid rgba(148, 145, 145,0.6);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding:5px 5px 0 5px;
+    background: transparent;
+    color: #eeeeee;
+}
+input[type="radio"], input[type="checkbox"]{
+    padding: 5px;
+    margin: 5px 5px 0 10px;
+    color: #eeeeee;
+}
+input:-internal-autofill-selected{
+    background: transparent;
+}
+
+input i{
+    color: rgb(236, 234, 234);
+}
+
+button[type="submit"]{
+    padding: 5px;
+    color: #062563;
+    font-weight: bold;
+    background:   #eeeeee;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    border: 1px solid  rgba(6, 37, 99,0.6);
+}
+
+button i{
+    padding-left: 5px;
+}
+
+select{
+    border: 0 solid transparent;
+    border-radius: 5px;
+    background: transparent;
+    color:#eeeeee;
+}
+
+select i {
+    color:#eeeeee;
+}
+select option,  select optgroup { 
+    background: rgba(0, 0, 0,0.7) !important;
+}
+select option:checked{
+    background: rgba(0,0,0,0.1);
+}
+
+/* margin */
+.mt10{
+    margin-top: 10px;
+}
+.m10{
+    margin: 10px;
+}
+
+
+/* fim margin */
+
+.w50{
+    width: 50vw;
+}
+.w25{
+    width: 25vw;
+}
+
+.bloco{
+    display: flex;
+    justify-content: space-between;
+}
+
+#categoria{
+    display: none;
+}
+
+table{
+    margin-left: 15px;
+}
+
+td, th, tfoot {
+    border:solid 0.5px rgba(205, 190, 172,0.3);
+    padding: 5px 35px;
+    text-align: center;
+    color: rgb(236, 234, 234);
+    font-size: 14px;
+}
+tr{
+    padding: 5px;
+}
+td input{
+    border: none;
+}
